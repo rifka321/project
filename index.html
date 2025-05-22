@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rifka Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body class="bg-[#241f5f] text-white scroll-smooth">
+
+  <!-- Navbar -->
+  <nav class="fixed w-full bg-[#010513] shadow-md z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="text-white text-2xl font-bold">Portofolio</div>
+      <div class="space-x-6">
+        <a href="#home" class="hover:text-blue-400 font-bold">Home</a>
+        <a href="#about" class="hover:text-blue-400 font-bold">About</a>
+        <a href="#skills" class="hover:text-blue-400 font-bold">Skills</a>
+        <a href="#portfolio" class="hover:text-blue-400 font-bold">Portfolio</a>
+        <a href="#contact" class="hover:text-blue-400 font-bold">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="pt-32 px-6 flex flex-col md:flex-row items-center gap-10">
+    <div class="flex-1" data-aos="fade-right">
+      <h1 class="text-4xl font-extrabold mb-4 text-white">Hi, My Name Is <br><span class="text-[#05b9ea]">Rifka Dwi
+          Fajarina</span></h1>
+      <h4 class="text-xl mb-6 text-white-400 font-semibold">Saya siswi SMK Negeri 1 Tengaran jurusan
+        RPL. Saya senang belajar hal baru, terutama di bidang teknologi, dan yakin bisa meraih cita-cita dengan kerja
+        keras.</h4>
+      <a href="#about" class="bg-black hover:bg-gray-800 text-white py-2 px-6 rounded-lg font-bold">Learn More</a>
+    </div>
+    <img src="img/foto profile.jpeg" alt="Rifka"
+      class="w-80 rounded-[50%_0%_50%_0%] object-cover animate-[float_4s_ease-in-out_infinite]" data-aos="fade-up" />
+  </section><br>
+
+  <!-- About -->
+  <section id="about" class="bg-[#032055] px-6 py-16 flex flex-col md:flex-row items-center gap-10">
+    <div class="flex-1" data-aos="fade-right"></div>
+    <img src="img/profil pramuka.jpg" alt="Rifka about" class="mx-auto mt-4"
+      class="w-64 h-80 rounded-full object-cover mx-auto shadow-lg" data-aos="fade-up" />
+    <!--TEXT-->
+    <div class="w-full md:w-1/2 text-left" data-aos="fade-right">
+      <h1 class="text-3xl font-bold mb-4 text-center">About Me</h1><br>
+      <h2 class="text-xl text-[#05b9ea] font-semibold mb-4 text-center">I'm Rifka Dwi Fajarina</h2>
+      <p class="leading-relaxed space-y-2 font-medium text-justify text-white">
+        Nama saya Rifka Dwi Fajarina. Saya lahir di Kabupaten Semarang pada tanggal 30 Juli 2009, dan
+        saat ini saya berusia 15 tahun. Saya tinggal di Jl. Miri Duren RT 12/RW 02, Kecamatan Tengaran, Kabupaten
+        Semarang. Saat ini saya sedang menempuh pendidikan di SMK Negeri 1 Tengaran, dengan mengambil jurusan Rekayasa
+        Perangkat Lunak (RPL). Selain belajar, saya juga memiliki hobi menonton drama Korea (K-Drama) yang sering saya
+        jadikan sebagai hiburan di waktu luang.
+      </p>
+    </div>
+
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" data-aos="zoom-in-up" class="py-12 bg-gray-900">
+    <div class="max-w-screen-md mx-auto px-6">
+      <h1 class="text-3xl font-bold text-white text-center mb-10">My Skills</h1>
+
+      <div class="space-y-6 flex flex-col items-center">
+        <!-- HTML -->
+        <div class="w-full max-w-md">
+          <div class="font-semibold mb-1 text-white text-center">HTML</div>
+          <div class="bg-gray-200 rounded-full h-6 relative overflow-hidden">
+            <div class="bg-purple-600 h-full rounded-full text-white text-sm font-bold flex items-center justify-center"
+              style="width: 85%">
+              85%
+            </div>
+          </div>
+        </div>
+
+        <!-- CSS -->
+        <div class="w-full max-w-md">
+          <div class="font-semibold mb-1 text-white text-center">CSS</div>
+          <div class="bg-gray-200 rounded-full h-6 relative overflow-hidden">
+            <div class="bg-purple-400 h-full rounded-full text-white text-sm font-bold flex items-center justify-center"
+              style="width: 60%">
+              60%
+            </div>
+          </div>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="w-full max-w-md">
+          <div class="font-semibold mb-1 text-white text-center">JavaScript</div>
+          <div class="bg-gray-200 rounded-full h-6 relative overflow-hidden">
+            <div class="bg-purple-700 h-full rounded-full text-white text-sm font-bold flex items-center justify-center"
+              style="width: 50%">
+              50%
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="bg-[#032055] px-6 py-16 text-center">
+    <h2 class="text-3xl font-bold mb-8" data-aos="zoom-in">My Portofolio</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      <!-- Repeat for each item -->
+      <div class="bg-[#c5dbfd] p-6 rounded-xl shadow-md hover:-translate-y-1 transition" data-aos="zoom-in-up">
+        <a href="https://rifka321.github.io/semester-1/">
+          <img src="img/semester 1.png" alt="Project 1" class="mb-2" />
+        </a>
+        <h3 class="font-bold mb-2 text-black">Semester 1</h3><br>
+        <a href="https://rifka321.github.io/semester-1/"
+          class="hover:bg-gray-800 text-blue py-2 px-6 rounded-lg font-bold">Learn More</a>
+      </div>
+      <!-- Tambahkan 5 item lagi seperti di atas -->
+      <div class="bg-[#c5dbfd] p-6 rounded-xl shadow-md hover:-translate-y-1 transition" data-aos="zoom-in-up">
+        <a href="https://rifka321.github.io/chloting-store/">
+          <img src="img/latihan 2 clothing store.jpeg" alt="latihan 1">
+        </a>
+        <h3 class="font-bold mb-2 text-black">Chloting Store</h3><br>
+        <a href="https://rifka321.github.io/chloting-store/"
+          class=" hover:bg-gray-800 text-blue py-2 px-6 rounded-lg font-bold">Learn More</a>
+      </div>
+      <div class="bg-[#c5dbfd] p-6 rounded-xl shadow-md hover:-translate-y-1 transition" data-aos="zoom-in-up">
+        <a href="https://rifka321.github.io/belanja/">
+          <img src="img/latihan 3 shooping.PNG">
+        </a>
+        <h3 class="font-bold mb-2 text-black">Shooping</h3><br>
+        <a href="https://rifka321.github.io/belanja/"
+          class=" hover:bg-gray-800 text-blue py-2 px-6 rounded-lg font-bold">Learn More</a>
+      </div>
+      <div class="bg-[#c5dbfd] p-6 rounded-xl shadow-md hover:-translate-y-1 transition" data-aos="zoom-in-up">
+        <a href="https://rifka321.github.io/travel/">
+          <img src="img/latihan 4 travel.PNG">
+        </a>
+        <h3 class="font-bold mb-2 text-black">Travel</h3>
+        <a href="https://rifka321.github.io/travel/"
+          class="hover:bg-gray-800 text-blue py-2 px-6 rounded-lg font-bold">Learn More</a>
+      </div>
+      <div class="bg-[#c5dbfd] p-6 rounded-xl shadow-md hover:-translate-y-1 transition" data-aos="zoom-in-up">
+        <a href="https://rifka321.github.io/Hospital/">
+          <img src="img/latihan 5 hospital.PNG">
+        </a>
+        <h3 class="font-bold mb-2 text-black">Hospital</h3>
+        <a href="https://rifka321.github.io/Hospital/"
+          class=" hover:bg-gray-800 text-blue py-2 px-6 rounded-lg font-bold">Learn More</a>
+      </div>
+      <div class="bg-[#c5dbfd] p-6 rounded-xl shadow-md hover:-translate-y-1 transition" data-aos="zoom-in-up">
+        <a href="https://rifka321.github.io/nct-dream/">
+          <img src="img/latihan 6 nct.PNG">
+        </a>
+        <h3 class="font-bold mb-2 text-black">Nct Dream</h3>
+        <a href="https://rifka321.github.io/nct-dream/"
+          class=" hover:bg-gray-800 text-blue py-2 px-6 rounded-lg font-bold">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class=" text-white py-10 px-6">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6 text-center">Contact me</h2>
+      <ul class="space-y-4 text-lg">
+        <li class="flex items-center gap-4">
+          <i class="fab fa-whatsapp text-green-500 text-2xl"></i>
+          <a href="https://wa.me/086742094304" target="_blank" class="hover:underline">+62 857-4209-4304</a>
+        </li>
+        <li class="flex items-center gap-4">
+          <i class="fab fa-instagram text-pink-500 text-2xl"></i>
+          <a href="https://instagram.com/rifka.df" target="_blank" class="hover:underline">@rifka.df</a>
+        </li>
+        <li class="flex items-center gap-4">
+          <i class="fab fa-tiktok text-white text-2xl"></i>
+          <a href="https://www.tiktok.com/@Rifkadwi.f" target="_blank" class="hover:underline">@Rifkadwi.f</a>
+        </li>
+        <li class="flex items-center gap-4">
+          <i class="fas fa-envelope text-yellow-400 text-2xl"></i>
+          <a href="mailto:rifkafajarina@gmail.com" class="hover:underline">rifkafajarina@gmail.com</a>
+        </li>
+        <li class="flex items-center gap-4">
+          <i class="fas fa-map-marker-alt text-red-400 text-2xl"></i>
+          <span>Jl. Miri Duren RT 12/RW 02, Kecamatan Tengaran, Kabupaten Semarang</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-black text-white text-center py-6">
+    Copyright &copy; 2025 Rifka Dwi Fajarina. All rights reserved.
+  </footer>
+
+
+  <!-- AOS init -->
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+      mirror: false
+    });
+  </script>
+</body>
+
+</html>

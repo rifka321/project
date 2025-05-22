@@ -1,0 +1,82 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.skill-row {
+  display: grid;
+  grid-template-columns: 100px 60px 1fr;
+  align-items: center;
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  gap: 10px;
+}
+
+.skill-name {
+  font-weight: bold;
+}
+
+.skill-percent {
+  text-align: right;
+  font-weight: 500;
+  color: #888;
+}
+
+.skill-bar {
+  width: 100%;
+  background-color: #e0e0e0;
+  height: 12px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.skill-bar {
+  width: 50;
+  background-color: blue;
+  height: 12px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+/* Animasi terus menerus */
+@keyframes skillLoop {
+  0% {
+    width: 0%;
+  }
+
+  50% {
+    width: var(--level);
+  }
+
+  100% {
+    width: 0%;
+  }
+}
+
+#skills {
+  padding: 90px 20px;
+  /* atas-bawah: 60px, kiri-kanan: 20px */
+  background-color: #2c1e60;
+  /* contoh background warna ungu gelap */
+}
